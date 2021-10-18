@@ -1,5 +1,6 @@
 from abc import abstractmethod
 import socket
+from socket import error
 from threading import Lock, Thread
 import hashlib
 import pickle
